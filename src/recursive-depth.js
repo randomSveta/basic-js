@@ -11,8 +11,3 @@ module.exports = class DepthCalculator {
     return depth;
   }
 };
-
-//const depthCalc = new DepthCalculator();
-
-//console.log(depthCalc.calculateDepth([1, 2, 3, [1], 4, 5, [1]])); //2
-//console.log(depthCalc.calculateDepth([1, 2, 3, 4, 5, [1, []]])); //3
